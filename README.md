@@ -1,6 +1,6 @@
 # Jeremia Portfolio
 
-Simple notes for running and developing the site.
+Built with Manus AI. Simple notes for running and developing the site.
 
 ## Prerequisites
 
