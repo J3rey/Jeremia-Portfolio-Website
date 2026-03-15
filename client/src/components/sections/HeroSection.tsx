@@ -6,7 +6,8 @@
 import { useTypingEffect } from "@/hooks/useTypingEffect";
 import { Github, Linkedin, FileText, ChevronDown } from "lucide-react";
 
-const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663298019635/hcns6TsFEmpCFpUru3EAVm/hero-bg-EgskXs5ezkSBvqaAMRZKgP.webp";
+const HERO_BG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663298019635/hcns6TsFEmpCFpUru3EAVm/hero-bg-EgskXs5ezkSBvqaAMRZKgP.webp";
 
 export default function HeroSection() {
   const { displayedText, isComplete } = useTypingEffect(
@@ -34,7 +35,9 @@ export default function HeroSection() {
         {/* Greeting label */}
         <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-[rgba(0,123,255,0.25)] bg-[rgba(0,123,255,0.05)] backdrop-blur-sm">
           <span className="w-2 h-2 rounded-full bg-[#007BFF] shadow-[0_0_8px_rgba(0,123,255,0.6)]" />
-          <span className="text-sm font-mono text-[#A0A0A0] tracking-wide">Available for opportunities</span>
+          <span className="text-sm font-mono text-[#A0A0A0] tracking-wide">
+            Available for opportunities
+          </span>
         </div>
 
         {/* Headline */}
@@ -58,9 +61,11 @@ export default function HeroSection() {
         <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
           <a
             href="#projects"
-            onClick={(e) => {
+            onClick={e => {
               e.preventDefault();
-              document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .querySelector("#projects")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
             className="led-button led-pulse px-8 py-3 rounded-lg font-medium text-base"
           >
@@ -68,9 +73,11 @@ export default function HeroSection() {
           </a>
           <a
             href="#contact"
-            onClick={(e) => {
+            onClick={e => {
               e.preventDefault();
-              document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .querySelector("#contact")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
             className="led-button-outline px-8 py-3 rounded-lg font-medium text-base"
           >
@@ -81,7 +88,7 @@ export default function HeroSection() {
         {/* Social links */}
         <div className="flex items-center justify-center gap-6">
           <a
-            href="https://github.com/jeremiayovinus"
+            href="https://github.com/J3rey"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#666] hover:text-[#007BFF] transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,123,255,0.5)]"
@@ -90,7 +97,7 @@ export default function HeroSection() {
             <Github size={22} />
           </a>
           <a
-            href="https://linkedin.com/in/jeremiayovinus"
+            href="https://www.linkedin.com/in/jeremia-yovinus/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#666] hover:text-[#007BFF] transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,123,255,0.5)]"
@@ -100,9 +107,11 @@ export default function HeroSection() {
           </a>
           <a
             href="#contact"
-            onClick={(e) => {
+            onClick={e => {
               e.preventDefault();
-              document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .querySelector("#contact")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
             className="text-[#666] hover:text-[#007BFF] transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(0,123,255,0.5)]"
             aria-label="Resume"
@@ -116,13 +125,17 @@ export default function HeroSection() {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
         <a
           href="#projects"
-          onClick={(e) => {
+          onClick={e => {
             e.preventDefault();
-            document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
+            document
+              .querySelector("#projects")
+              ?.scrollIntoView({ behavior: "smooth" });
           }}
           className="flex flex-col items-center gap-2 text-[#555] hover:text-[#007BFF] transition-colors"
         >
-          <span className="text-xs font-mono tracking-widest uppercase">Scroll</span>
+          <span className="text-xs font-mono tracking-widest uppercase">
+            Scroll
+          </span>
           <ChevronDown size={18} className="animate-bounce" />
         </a>
       </div>

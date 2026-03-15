@@ -25,7 +25,9 @@ export default function ContactSection() {
                 <Mail size={22} />
               </div>
               <div>
-                <h3 className="font-display text-lg font-semibold text-white">Email Me</h3>
+                <h3 className="font-display text-lg font-semibold text-white">
+                  Email Me
+                </h3>
                 <p className="text-[#888] text-sm">Reach out anytime</p>
               </div>
             </div>
@@ -34,7 +36,10 @@ export default function ContactSection() {
               className="inline-flex items-center gap-2 text-[#007BFF] hover:text-[#3399FF] transition-colors text-base font-medium group"
             >
               jeremiayov@gmail.com
-              <ExternalLink size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+              <ExternalLink
+                size={14}
+                className="opacity-0 group-hover:opacity-100 transition-opacity"
+              />
             </a>
           </div>
 
@@ -61,7 +66,7 @@ export default function ContactSection() {
           {/* Social links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/jeremiayovinus"
+              href="https://github.com/J3rey"
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 rounded-lg border border-[rgba(255,255,255,0.06)] bg-[rgba(255,255,255,0.03)] flex items-center justify-center text-[#888] hover:text-[#007BFF] hover:border-[rgba(0,123,255,0.4)] hover:shadow-[0_0_12px_rgba(0,123,255,0.2)] transition-all duration-300"
@@ -70,7 +75,7 @@ export default function ContactSection() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/jeremiayovinus"
+              href="https://www.linkedin.com/in/jeremia-yovinus/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 rounded-lg border border-[rgba(255,255,255,0.06)] bg-[rgba(255,255,255,0.03)] flex items-center justify-center text-[#888] hover:text-[#007BFF] hover:border-[rgba(0,123,255,0.4)] hover:shadow-[0_0_12px_rgba(0,123,255,0.2)] transition-all duration-300"
