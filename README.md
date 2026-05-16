@@ -2,6 +2,8 @@
 
 Built with Manus AI. Simple notes for running and developing the site.
 
+Live site: https://jeremia-portfolio-website.vercel.app/
+
 ## Prerequisites
 
 - Node.js 20+ (includes corepack)
